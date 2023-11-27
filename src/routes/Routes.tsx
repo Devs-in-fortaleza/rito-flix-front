@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
-import Home from '../pages/Home/Home';
+import Menu from "../pages/components/Menu/Menu";
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home title="Home page" />} />
+        <Route path="/" element={<Menu title="RitoFlix"/>} />
       </Routes>
     </>
   );
